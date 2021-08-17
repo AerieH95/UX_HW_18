@@ -1,0 +1,38 @@
+:root { 
+  --black: #000000;
+  --lima: #76b900;
+  --mountain-mist: #939393;
+  --white: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 18px;
+  --font-size-s: 12px;
+  --font-size-xl: 30px;
+  --font-size-xxl: 36px;
+ 
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-family-signika: "Signika", Helvetica;
+}
+.signika-light-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-signika);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.signika-semi-bold-lima-30px {
+  color: var(--lima);
+  font-family: var(--font-family-signika);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.signika-light-mountain-mist-18px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-signika);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
